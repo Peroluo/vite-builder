@@ -1,0 +1,11 @@
+{
+    "extends": "./node_modules/@mlz/lint/tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": "."
+    },
+    "exclude": ["node_modules", "build"],
+    "awesomeTypescriptLoaderOptions": {
+      "useBabel": true
+    }
+  }
+  

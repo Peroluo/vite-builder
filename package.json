@@ -1,0 +1,28 @@
+{
+  "name": "vite-builder",
+  "version": "1.0.0",
+  "description": "vite基本实现",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -W vite/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peroluo/vite-builder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peroluo/vite-builder/issues"
+  },
+  "homepage": "https://github.com/Peroluo/vite-builder#readme",
+  "devDependencies": {
+    "@mlz/lint": "^1.2.0",
+    "@types/connect": "^3.4.34",
+    "@types/node": "^15.12.2",
+    "connect": "^3.7.0",
+    "ts-node": "^10.0.0",
+    "tslib": "^2.3.0",
+    "typescript": "^4.3.4"
+  }
+}
